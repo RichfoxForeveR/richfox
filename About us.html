@@ -1,0 +1,170 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Dropdown Button */
+		.dropbtn {
+		  background-color: #04AA6D;
+		  color: orange;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+		  
+		}
+		
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+		
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 40px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+		
+		/* Links inside the dropdown */
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+		
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {background-color: #ddd;}
+		
+		/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {display: block;}
+		
+		/* Change the background color of the dropdown button when the dropdown content is shown */
+		.dropdown:hover .dropbtn {background-color: #3e8e41;}
+		.navbar{
+		  width: 85%;
+		  margin: auto;
+		  padding:35px 0;
+		  display:flex;
+		  align-items:center;
+		  justify-content: space-between;
+
+  }
+  p{
+  margin-top: -500px;
+  margin-left: 200px;
+  color: rgb(38, 0, 255);
+  size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+        width: 150px;
+        padding: 70px o;
+  border-radius:10px;
+  border:2px solid white;
+}
+ button:hover{
+  border:none;
+  transition: 0.5s;
+ }
+ .about h1{
+	 margin-top: -400px;
+	 margin-left: 600px;
+
+ }
+ a img{
+	 size: 40px;
+	 padding: 40px 0;
+	 width: 80px;
+	 height: 80px;
+	
+ }
+ i b a {
+	 justify-content: center;
+	 align-items: center;
+	 text-align: center;
+	 margin-left: 300px;
+	 size: 70px;
+	 color: darkgreen;
+ }
+ i b {
+	justify-content: center;
+	 align-items: center;
+	 text-align: center;
+	 margin-left: 300px;
+	 size: 70px;
+	 color: darkgreen;
+ }
+ .about b{
+	justify-content: center;
+	 align-items: center;
+	 text-align: center;
+	 margin-left: 300px;
+	 size: 700px;
+	 color: darkgreen;
+	 text-size-adjust: 700px;
+ }
+
+ </style>
+				<title>ABOUT US</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body background="/storage/emulated/0/KineMaster/IMG-20210314-WA0000.jpg" alt="">
+			<div class="banner">
+				<div class="navbar">
+					<img src="FR.jpg" class="logo" width="150px" height="150px">
+					
+				   <div class="dropdown">
+					 <button class="dropbtn">Menu</button>
+					 <div class="dropdown-content">
+					   <a href="index.html">OFFICIAL PAGE</a>
+					   <a href="only html.html">Study Timer</a>
+					   <a href="Home.html">Home</a>
+					   <a href="https://www.youtube.com/channel/UCsjf9WWTHJq4pneEglO1qRA">ForeveR Learnings</a>
+					 </div>
+				   </div>
+				   </div>
+									
+				</div> 
+				<div class="about">
+					<h1>Hey!</h1>
+					<b>Welcome To this webpage.</b><br>
+				
+					<i><b>We are the ForeveR brothers, we brothers with the help of our parents created this webpage,
+					hey we also have a youtube channel <br><a href="https://www.youtube.com/channel/UCsjf9WWTHJq4pneEglO1qRA" class="img">
+						<img src="youtube.jpg"><br>
+					Cool if u Subscribed!<br></a>
+				We all are happy that we created this responsive website.<br>
+			Please visit our official page for any information
+		<br> Here we give u the codes u can try for your html.</b></i>
+				</div><br><br>
+
+				  <div class="audio">
+   <div style="text-align:center"> 
+    <button onclick="playPause()" width="700px">Play/Pause</button>
+   <audio controls loop id="audio1">
+     <source src="action.mp3">
+   </audio>
+   </div>
+   <script> 
+    var myVideo = document.getElementById("audio1"); 
+    
+    function playPause() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+       
+    } </script></div>
+     <a onclick="playPause()" href="#audio1"><p>
+		Click here to play the<br>
+		<b><i>AUDIO while u read our content</i></b>
+	  </p></a>
+   
+</body>
+</html>
